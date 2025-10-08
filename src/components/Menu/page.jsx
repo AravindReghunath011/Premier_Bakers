@@ -54,8 +54,8 @@ const ChooseYourItems = () => {
       price: "200",
     },
     {
-      image: "muttaman.png",
-      name: "Mutton Mandhi",
+      image: "posts/post4.heic",
+      name: "Chicken Biryani",
       price: "340",
     },
   ];

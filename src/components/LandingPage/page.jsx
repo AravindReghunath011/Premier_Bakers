@@ -135,7 +135,7 @@ export default function LandingPage() {
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage: "url(/banner.jpg)",
+            backgroundImage: "url(pic15.jpg)",
           }}
         >
           <div className="absolute inset-0 bg-black/50" />

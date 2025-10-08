@@ -124,10 +124,7 @@ const AboutUs = () => {
             <div className="space-y-6 p-8 bg-white rounded-2xl shadow-lg border border-[#0E5644]/10">
               {/* Stats section content remains the same */}
               <p className="text-lg text-gray-700 leading-relaxed">
-                Since its inception in 2013, Castle Resto Mandi has swiftly
-                risen to prominence as a leading Mandi Restaurant, specializing
-                in Authentic Arabian cuisine in the vibrant state of Kerala,
-                India.
+              Since its establishment in 1996, Premier Bakers has grown into one of Kerala’s most beloved bakeries, renowned for its delicious cakes, fresh bakes, and a delightful fusion of bakery classics with signature dishes like Alfam and Mandi.Since its establishment in 1996, Premier Bakers has grown into one of Kerala’s most beloved bakeries, renowned for its delicious cakes, fresh bakes, and a delightful fusion of bakery classics with signature dishes like Alfam and Mandi.
               </p>
               <p className="text-lg text-gray-700 leading-relaxed">
                 Our remarkable journey is a testament to our unwavering
@@ -141,7 +138,7 @@ const AboutUs = () => {
                 <div className="text-center p-4 bg-[#0E5644]/5 rounded-lg hover:bg-[#0E5644]/10 transition-colors">
                   <Clock className="w-8 h-8 text-[#C44347] mx-auto mb-2" />
                   <p className="font-bold text-2xl text-gray-800">
-                    {isVisible && <AnimatedCounter end={7} />}+
+                    {isVisible && <AnimatedCounter end={29} />}+
                   </p>
                   <p className="text-sm text-gray-600">Years of Excellence</p>
                 </div>
@@ -164,25 +161,25 @@ const AboutUs = () => {
 
             <div className="grid grid-cols-2 gap-4">
               <img
-                src="ss05.jpg"
+                src="pic14.jpg"
                 alt="Restaurant Interior"
                 className="w-full h-64 object-cover rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 cursor-pointer"
                 onClick={() => handleImageClick("ss05.jpg")}
               />
               <img
-                src="ss06.jpg"
+                src="pic20.jpg"
                 alt="Signature Dish"
                 className="w-full h-64 object-cover rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 cursor-pointer"
                 onClick={() => handleImageClick("ss06.jpg")}
               />
               <img
-                src="ss07.jpg"
+                src="pic2.jpg"
                 alt="Chef at Work"
                 className="w-full h-64 object-cover rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 cursor-pointer"
                 onClick={() => handleImageClick("ss07.jpg")}
               />
               <img
-                src="ss08.jpg"
+                src="pic27.jpg"
                 alt="Restaurant Ambiance"
                 className="w-full h-64 object-cover rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 cursor-pointer"
                 onClick={() => handleImageClick("ss08.jpg")}
@@ -236,9 +233,7 @@ const AboutUs = () => {
           <div className="bg-[#C92127]/5 rounded-2xl p-8 text-center max-w-3xl mx-auto border border-[#0E5644]/10">
             <Star className="w-12 h-12 text-[#C44347] mx-auto mb-6" />
             <p className="text-xl italic text-gray-700 mb-6">
-              "Castle Resto offers an unforgettable dining experience with its
-              authentic Arabian flavors and exceptional service. A true gem in
-              Kerala's culinary landscape."
+              "Premier Bakers offers a delightful culinary experience with its freshly baked cakes, irresistible pastries, and flavorful dishes. A true favorite in Kerala’s food scene, where taste meets tradition."
             </p>
             <div className="flex items-center justify-center gap-2">
               <Star className="w-4 h-4 text-[#C44347]" fill="currentColor" />
@@ -248,7 +243,7 @@ const AboutUs = () => {
               <Star className="w-4 h-4 text-[#C44347]" fill="currentColor" />
             </div>
             <p className="text-sm text-gray-600 mt-2">
-              4.9/5 Average Customer Rating
+              4.5/5 Average Customer Rating
             </p>
           </div>
         </div>

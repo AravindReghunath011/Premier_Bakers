@@ -36,43 +36,43 @@ const menuItems = [
     href: "/",
     description:
       "Explore our mouthwatering signature dishes, including our famous Mandhi and Kabsa specials.",
-    icon: <Signature className="w-4 h-4 text-[#0E5644]" />,
+    icon: <Signature className="w-4 h-4 text-[#C44347]" />,
   },
   {
     title: "Appetizers",
     href: "/",
     description:
       "Start your meal with our delectable range of authentic appetizers.",
-    icon: <Soup className="w-4 h-4 text-[#0E5644]" />,
+    icon: <Soup className="w-4 h-4 text-[#C44347]" />,
   },
   {
     title: "Desserts",
     href: "/",
     description:
       "Indulge in our delightful selection of traditional and modern desserts.",
-    icon: <Cake className="w-4 h-4 text-[#0E5644]" />,
+    icon: <Cake className="w-4 h-4 text-[#C44347]" />,
   },
   {
     title: "Beverages",
     href: "/",
     description:
       "Quench your thirst with our refreshing drinks and exotic teas.",
-    icon: <Wine className="w-4 h-4 text-[#0E5644]" />,
+    icon: <Wine className="w-4 h-4 text-[#C44347]" />,
   },
   {
     title: "Special Offers",
     href: "/",
     description:
       "Don't miss our exclusive offers and combo meals for a perfect dining experience.",
-    icon: <Tag className="w-4 h-4 text-[#0E5644]" />,
+    icon: <Tag className="w-4 h-4 text-[#C44347]" />,
   },
   {
     title: "Catering Services",
     href: "/services/catering",
     description:
-      "Let Castle Resto make your events special with our exquisite catering services.",
-    icon: <Users className="w-4 h-4 text-[#0E5644]" />,
-  },
+      "Let Premier Bakers make your events special with our exquisite catering services.",
+    icon: <Users className="w-4 h-4 text-[#C44347]" />,
+  },  
 ];
 
 export default function HeaderMenu() {
@@ -93,37 +93,35 @@ export default function HeaderMenu() {
                     className="flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-muted/50 to-muted p-6 no-underline outline-none focus:shadow-md"
                     href="/"
                   >
-                    <Castle className="w-8 h-8 mb-4 text-[#0E5644]" />
+                    <Castle className="w-8 h-8 mb-4 text-[#C44347]" />
                     <div className="mb-2 mt-4 text-lg font-medium">
                       Premier Bakers
                     </div>
                     <p className="text-sm leading-tight text-muted-foreground">
-                      Experience the authentic taste of Arabia with Castle
-                      Resto's specially curated menu, combining traditional
-                      flavors and modern dining.
+                      Savor the best of both worlds at Premier Bakers from rich, creamy cakes that melt in your mouth to flavorful Alfam and Mandi that capture true Arabian taste.
                     </p>
                   </a>
                 </NavigationMenuLink>
               </li>
               <ListItem
                 title="Our Mission"
-                icon={<Target className="w-4 h-4 text-[#0E5644]" />}
+                icon={<Target className="w-4 h-4 text-[#C44347]" />}
               >
                 Serving authentic Arabian cuisine with a focus on quality,
                 tradition, and unforgettable flavors.
               </ListItem>
               <ListItem
                 title="Our Values"
-                icon={<HeartHandshake className="w-4 h-4 text-[#0E5644]" />}
+                icon={<HeartHandshake className="w-4 h-4 text-[#C44347]" />}
               >
                 Committed to providing exceptional dining experiences with fresh
                 ingredients and outstanding service.
               </ListItem>
               <ListItem
                 title="Our Story"
-                icon={<History className="w-4 h-4 text-[#0E5644]" />}
+                icon={<History className="w-4 h-4 text-[#C44347]" />}
               >
-                Discover how Castle Resto brings the rich culinary heritage of
+                Discover how Premier bakers brings the rich culinary heritage of
                 Arabia to your table.
               </ListItem>
             </ul>
@@ -163,7 +161,7 @@ export default function HeaderMenu() {
               <ListItem
                 title="Private Dining"
                 href="/services/private-dining"
-                icon={<PrivateDining className="w-4 h-4 text-[#0E5644]" />}
+                icon={<PrivateDining className="w-4 h-4 text-[#C44347]" />}
               >
                 Enjoy an exclusive dining experience with personalized service
                 in our private dining spaces.
@@ -171,7 +169,7 @@ export default function HeaderMenu() {
               <ListItem
                 title="Event Catering"
                 href="/services/event-catering"
-                icon={<PartyPopper className="w-4 h-4 text-[#0E5644]" />}
+                icon={<PartyPopper className="w-4 h-4 text-[#C44347]" />}
               >
                 Make your special occasions unforgettable with our premium
                 catering services.
