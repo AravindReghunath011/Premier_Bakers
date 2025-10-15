@@ -4,21 +4,29 @@ import React, { useState } from "react";
 const PricingMenu = () => {
   const [activeTab, setActiveTab] = useState("MANDHI");
 
-  const tabs = [
-  "MANDHI",
-  "BRIYANI",
-  "SHAWARMA",
-  "RICE",
+ const tabs = [
   "FRIES",
   "JAPANESE FRIES",
   "CHICKEN MOMOS",
   "CHICKEN PIZZA MOMOS",
-  "CHICKEN TIKKA MOMOS",  
+  "CHICKEN TIKKA MOMOS",
   "VEG MOMOS",
   "NOODLES",
   "SOUP",
   "ROTTI",
-]
+  "STARTS CHICKEN",
+  "RICE",
+  "BRIYANI",
+  "CURRY",
+  "SHAWARMA",
+  "ALFAHAM",
+  "HOT",
+  "FRESH JUICE",
+  "MOJITO",
+  "LIME",
+  "MANDHI"
+];
+
 ;
 
   const handleWhatsAppClick = (item) => {
@@ -247,34 +255,13 @@ const PricingMenu = () => {
     category: "MANDHI",
     items: [
       { name: "Quarter Mandhi with Alfaham", description: "Quarter portion of Mandhi served with Alfaham.", price: 240, image: "peri-peri-mandi.png" },
-      { name: "Half Mandhi with Alfaham", description: "Half portion of Mandhi served with Alfaham.", price: 480, image: "peri-peri-mandi.png" },
-      { name: "3/4 Mandhi with Alfaham", description: "Three-fourths portion of Mandhi served with Alfaham.", price: 720, image: "peri-peri-mandi.png" },
-      { name: "Full Mandhi with Alfaham", description: "Full portion of Mandhi served with Alfaham.", price: 960, image: "peri-peri-mandi.png" },
       { name: "Quarter Mandhi with Peri Peri Alfaham", description: "Quarter Mandhi served with spicy Peri Peri Alfaham.", price: 250, image: "peri-peri-mandi.png" },
-      { name: "Half Mandhi with Peri Peri Alfaham", description: "Half Mandhi served with spicy Peri Peri Alfaham.", price: 500, image: "peri-peri-mandi.png" },
-      { name: "3/4 Mandhi with Peri Peri Alfaham", description: "Three-fourths Mandhi served with spicy Peri Peri Alfaham.", price: 750, image: "peri-peri-mandi.png" },
-      { name: "Full Mandhi with Peri Peri Alfaham", description: "Full Mandhi served with spicy Peri Peri Alfaham.", price: 1000, image: "peri-peri-mandi.png" },
       { name: "Quarter Mandhi with BBQ Alfaham", description: "Quarter Mandhi served with BBQ Alfaham.", price: 250, image: "peri-peri-mandi.png" },
-      { name: "Half Mandhi with BBQ Alfaham", description: "Half Mandhi served with BBQ Alfaham.", price: 500, image: "peri-peri-mandi.png" },
-      { name: "3/4 Mandhi with BBQ Alfaham", description: "Three-fourths Mandhi served with BBQ Alfaham.", price: 750, image: "peri-peri-mandi.png" },
-      { name: "Full Mandhi with BBQ Alfaham", description: "Full Mandhi served with BBQ Alfaham.", price: 1000, image: "peri-peri-mandi.png" },
       { name: "Quarter Mandhi with Honey Chilli Alfaham", description: "Quarter Mandhi served with Honey Chilli Alfaham.", price: 250, image: "peri-peri-mandi.png" },
-      { name: "Half Mandhi with Honey Chilli Alfaham", description: "Half Mandhi served with Honey Chilli Alfaham.", price: 500, image: "peri-peri-mandi.png" },
-      { name: "3/4 Mandhi with Honey Chilli Alfaham", description: "Three-fourths Mandhi served with Honey Chilli Alfaham.", price: 750, image: "peri-peri-mandi.png" },
-      { name: "Full Mandhi with Honey Chilli Alfaham", description: "Full Mandhi served with Honey Chilli Alfaham.", price: 1000, image: "peri-peri-mandi.png" },
       { name: "Quarter Mandhi with Red Dragon Alfaham", description: "Quarter Mandhi served with Red Dragon Alfaham.", price: 250, image: "peri-peri-mandi.png" },
-      { name: "Half Mandhi with Red Dragon Alfaham", description: "Half Mandhi served with Red Dragon Alfaham.", price: 500, image: "peri-peri-mandi.png" },
-      { name: "3/4 Mandhi with Red Dragon Alfaham", description: "Three-fourths Mandhi served with Red Dragon Alfaham.", price: 750, image: "peri-peri-mandi.png" },
-      { name: "Full Mandhi with Red Dragon Alfaham", description: "Full Mandhi served with Red Dragon Alfaham.", price: 1000, image: "peri-peri-mandi.png" },
       { name: "Quarter Mandhi with Hot Chilli Garlic Alfaham", description: "Quarter Mandhi served with Hot Chilli Garlic Alfaham.", price: 250, image: "peri-peri-mandi.png" },
-      { name: "Half Mandhi with Hot Chilli Garlic Alfaham", description: "Half Mandhi served with Hot Chilli Garlic Alfaham.", price: 500, image: "peri-peri-mandi.png" },
-      { name: "3/4 Mandhi with Hot Chilli Garlic Alfaham", description: "Three-fourths Mandhi served with Hot Chilli Garlic Alfaham.", price: 750, image: "peri-peri-mandi.png" },
-      { name: "Full Mandhi with Hot Chilli Garlic Alfaham", description: "Full Mandhi served with Hot Chilli Garlic Alfaham.", price: 1000, image: "peri-peri-mandi.png" },
       { name: "Quarter Mandhi with Creamy Afghani Alfaham", description: "Quarter Mandhi served with Creamy Afghani Alfaham.", price: 250, image: "peri-peri-mandi.png" },
-      { name: "Half Mandhi with Creamy Afghani Alfaham", description: "Half Mandhi served with Creamy Afghani Alfaham.", price: 500, image: "peri-peri-mandi.png" },
-      { name: "3/4 Mandhi with Creamy Afghani Alfaham", description: "Three-fourths Mandhi served with Creamy Afghani Alfaham.", price: 750, image: "peri-peri-mandi.png" },
-      { name: "Full Mandhi with Creamy Afghani Alfaham", description: "Full Mandhi served with Creamy Afghani Alfaham.", price: 1000, image: "peri-peri-mandi.png" },
-      { name: "Only Mandhi rice", description: "Plain Mandhi rice without Alfaham.", price: 100, image: "peri-peri-mandi.png" }
+     { name: "Only Mandhi rice", description: "Plain Mandhi rice without Alfaham.", price: 100, image: "peri-peri-mandi.png" }
     ]
   }
 ];
