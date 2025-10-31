@@ -61,21 +61,37 @@ const Footer = () => {
             <p className="text-sm">compliance@.in </p>
           </div> */}
 
-          <a
-            href="https://maps.app.goo.gl/BEE1u2N9LsPKRH648"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-[#FBEABB]/80 hover:underline text-sm"
-          >
-            Find us on Google
-          </a>
+          
         </div>
 
         {/* Branches & Newsletter */}
         <div className="space-y-8">
           <h3 className="text-2xl font-semibold text-[#fff]">Our Branches</h3>
           <ul className="list-disc pl-5 space-y-1 text-sm">
-            <li>Kerala</li>
+            <li><a
+            href="https://maps.app.goo.gl/2gcXPQ9dMVb4vYgdA?g_st=aw"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#FBEABB]/80 hover:underline text-sm"
+          >
+            Ramapuram
+          </a></li>
+            <li><a
+            href="https://maps.app.goo.gl/3XjDRnf6NzSr3znD7?g_st=aw"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#FBEABB]/80 hover:underline text-sm"
+          >
+            Kadanad
+          </a></li>
+            <li><a
+            href="https://maps.app.goo.gl/aNsjmGPmHQQHXhNy6?g_st=aw"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#FBEABB]/80 hover:underline text-sm"
+          >
+            Anthinad
+          </a></li>
           </ul>
 
           <h3 className="text-2xl font-semibold text-[#fff]">Stay Updated</h3>
