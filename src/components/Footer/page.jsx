@@ -82,7 +82,7 @@ const Footer = () => {
             rel="noopener noreferrer"
             className="text-[#FBEABB]/80 hover:underline text-sm"
           >
-            Kadanad
+            Kollappally 
           </a></li>
             <li><a
             href="https://maps.app.goo.gl/aNsjmGPmHQQHXhNy6?g_st=aw"
@@ -90,7 +90,7 @@ const Footer = () => {
             rel="noopener noreferrer"
             className="text-[#FBEABB]/80 hover:underline text-sm"
           >
-            Anthinad
+            Pravithanam
           </a></li>
           </ul>
 
