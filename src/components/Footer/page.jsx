@@ -48,7 +48,7 @@ const Footer = () => {
            Ramapuram ,Kottayam, Kerala 686561
             </p>
             <p className="text-sm">+91 73065 72682</p>
-            <p className="text-sm">compliance@.in </p>
+            <p className="text-sm">premierbakers1996@gmail.com </p>
           </div>
 
           {/* <div className="space-y-2">
